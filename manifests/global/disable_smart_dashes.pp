@@ -4,6 +4,7 @@ class osx::global::disable_smart_dashes {
     user   => $::boxen_user,
     key    => 'NSAutomaticDashSubstitutionEnabled',
     domain => 'NSGlobalDomain',
-    value  => true,
+    type   => 'bool',
+    value  => false,
   }
 }
